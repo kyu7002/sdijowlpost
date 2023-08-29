@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         Set child_menu to display block
+// @name         시대인재부엉이포스트 모바일 
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Set display:block for .nav.child_menu
-// @author       You
-// @match        *admin.sdij.com/*
+// @version      1.1
+// @description  Set custom styles for .nav.child_menu and other elements
+// @author       물량공급
+// @match        *://admin.sdij.kr/*  // 원하는 URL 패턴을 설정하세요
 // @grant        none
 // ==/UserScript==
 
@@ -17,6 +17,24 @@
     style.innerHTML = `
         .nav-sm .nav.child_menu {
             display: block !important;
+        }
+        .nav-sm .nav.side-menu li a {
+            font-size: 10px;
+        }
+        .nav-sm .nav.side-menu li.active-sm ul ul {
+            width: 300%;
+        }
+        .nav-sm .nav.side-menu li a i {
+            font-size: 0px !important;
+            text-align: center;
+            width: 0% !important;
+        }
+        .nav-sm ul.nav.child_menu {
+            left: 120%;
+            width: 350%;
+        }
+        .nav-sm ul.nav.child_menu li {
+            padding: 0 1px;
         }
     `;
 
