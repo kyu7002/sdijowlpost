@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         sdij owl post mobile css hack
+// @name         시대인재 부엉이포스트 모바일 css 핵
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Set custom styles for .nav.child_menu and other elements
