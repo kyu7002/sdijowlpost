@@ -4,7 +4,7 @@
 // @version      1.1
 // @description  Set custom styles for .nav.child_menu and other elements
 // @author       물량공급
-// @match        *://admin.sdij.kr/*  // 원하는 URL 패턴을 설정하세요
+// @match        *admin.sdij.kr/*  // 원하는 URL 패턴을 설정하세요
 // @grant        none
 // ==/UserScript==
 
